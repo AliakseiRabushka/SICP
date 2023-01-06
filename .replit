@@ -1,0 +1,12 @@
+entrypoint = "main.scm"
+
+[interpreter]
+command = [
+"replit-replbox",
+"--ps1", "\u0001\u001b[33m\u0002\u0001\u001b[00m\u0002 ",
+"-i",
+"scheme"
+]
+
+[nix]
+channel = "stable-21_11"
