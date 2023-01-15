@@ -1,7 +1,3 @@
-;Упражнение 1.30.
-;Процедура sum порождает линейную рекурсию. Ее можно переписать так, чтобы суммирование
-;выполнялось итеративно. Покажите, как сделать это, заполнив пропущенные выражения в следу-
-;ющем определении:
 
 (define (sum term a next b)
   (define (iter a result)
@@ -18,7 +14,6 @@
 
 (sum-int 1 10)
   
-#|
 (define (sum-int a b)
 (define (sum-iter a result)
   (if (>= a b)
@@ -32,8 +27,7 @@
   ;(sum-iter (4)  (11)))
   ;(sum-iter (5)  (15)))
  ; 15
-|#
- #|
+
 (define (sum term a next b)
   (if (> a b)
   0
@@ -48,4 +42,4 @@
   (sum indentity a inc b))
 
 (sum-int 2 3)
-|#
+
