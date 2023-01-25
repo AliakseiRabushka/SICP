@@ -9,30 +9,6 @@
 ;; (same-parity 2 3 5 5 7 8 10 11 12 13 260 135 4 8 1221 1220)  
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ;; (define (same-parity x . y)
 ;;   (iter x y (list)))
 ;; (define (iter x y result)
