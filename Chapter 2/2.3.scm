@@ -71,25 +71,4 @@
 ;; (area rectangle) 
 
 
-;; (define (get-width rectangle) 
-;;   (let ((start-point (start-segment (car rectangle))) 
-;;         (end-point (end-segment (car rectangle)))
-;;         ())))
-
-;; (define (get-height rectangle) 
-;;   (let ((start-point (start-segment (cdr rectangle)))
-;;         (end-point (end-segment (cdr rectangle)))
-;;         ())))
-
-
-;; (define (length s)
-;;   (let 
-;;     ((dx (- (xcor (seg-end s))
-;;             (xcor (seg-start s))))
-;;      (dy (- (ycor (seg-end s))
-;;             (ycor (seg-start s)))))
-;;     (sqrt (+ (square dx) 
-;;              (square dy)))))
-
-
 
