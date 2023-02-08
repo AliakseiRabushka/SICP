@@ -17,8 +17,8 @@
 
 (define (abs-num b)
           (if (< b 0) 
-          (- b)
-          b))
+              (- b)
+              b))
 
 (define (improved-mul-rat x y)
          (improved-make-rat (* (numer x) (numer y))
