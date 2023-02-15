@@ -3,7 +3,7 @@
   (define (iter a result)
     (if (>= a b)
       result
-        (iter (term a) (+ (next a) result))))
+      (iter (term a) (+ (next a) result))))
   (iter a b))
 
 (define (inc n) (+ n 1))
